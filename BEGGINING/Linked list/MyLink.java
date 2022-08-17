@@ -1,8 +1,6 @@
 
 import java.util.*;
 
-import javax.lang.model.util.ElementScanner14;
-
 class Link {
     public int data;
     public Link next;
@@ -259,7 +257,7 @@ public class MyLink {
                     System.out.println("Enter a valid option ");
 
             }
-        }while(opt!= 11);
+        } while (opt != 11);
 
     }
 }
