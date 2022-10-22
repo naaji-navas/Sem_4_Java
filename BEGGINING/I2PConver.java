@@ -23,6 +23,7 @@ class InfixToPost {
         stack.push('(');
         infixExp = infixExp.concat(String.valueOf(')'));
         // step2
+        //check this
         for (int i = 0; i < infixExp.length(); i++) {
             char character = infixExp.charAt(i);
             // step3
